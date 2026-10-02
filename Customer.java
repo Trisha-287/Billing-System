@@ -33,7 +33,7 @@ public class Customer {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }public void displayCustomer(){
-        System.out.println("customer id:"+customerId);
+        System.out.println("Customer id:"+customerId);
         System.out.println("customer name:"+customerName);
         System.out.println("phone number:"+phoneNumber);
     }

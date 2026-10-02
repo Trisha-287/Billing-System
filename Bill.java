@@ -98,7 +98,7 @@ double gst;
      for(BillItem item:items){
          item.displayItem();
      }
-        System.out.println("subtotal:"+subtotal);
+        System.out.println("Subtotal:"+subtotal);
         System.out.println("dicount:"+discount);
         System.out.println("Gst:"+gst);
         System.out.println("totalamount:"+totalamount);

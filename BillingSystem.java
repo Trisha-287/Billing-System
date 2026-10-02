@@ -48,7 +48,7 @@ public class BillingSystem{
             customer.displayCustomer();
         }
     }
-    //search product
+    //search Product
     public void serchProduct(){
         System.out.println("enter product id to search");
         int id=sc.nextInt();

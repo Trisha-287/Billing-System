@@ -34,7 +34,7 @@ public class BillItem {
         this.totalprice = totalprice;
     }
     public void displayItem(){
-        System.out.println("productName:"+product.getProductName());
+        System.out.println("ProductName:"+product.getProductName());
         System.out.println("Quantity:"+quantity)  ;
         System.out.println("Total price:"+totalprice);
     }

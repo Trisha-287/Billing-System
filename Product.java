@@ -45,7 +45,7 @@ public class Product {
     }
     public void displayProduct(){
         System.out.println("product id:"+productId);
-        System.out.println("product name:"+productName);
+        System.out.println("Product name:"+productName);
         System.out.println("price:"+price);
         System.out.println("quantity:"+quantity);
     }
