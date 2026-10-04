@@ -10,7 +10,7 @@ public class BillingSystem {
     private Scanner sc = new Scanner(System.in);
     Bill currentBill;
 
-    //add product
+    //Add Product
     public void addProduct() {
         try {
             System.out.println("enter product id:");
