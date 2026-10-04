@@ -225,12 +225,13 @@ public class BillingSystem {
         if (transactionHistory.isEmpty()) {
             System.out.println("no transaction available");
             return;
+        }
             System.out.println("*******transaxtion history*****");
             for (String transaction : transactionHistory) {
                 System.out.println(transaction);
             }
         }
-        public void start () {
+        public void start() {
             int choice;
             do {
                 System.out.println("******billing system***");
@@ -311,7 +312,7 @@ public class BillingSystem {
                 }
             } while (choice != 16);
         }
-        public static void main (String[]args){
+        public static void main(String[] args){
             BillingSystem system = new BillingSystem();
             system.start();
         }
